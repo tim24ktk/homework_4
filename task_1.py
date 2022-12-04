@@ -9,7 +9,7 @@ from math import pi
 def get_precision(line: str) -> int:
     """
     получает количество символов после запятой в вещественном числе
-    :param line:
+    :param line: str
     :return:
     """
 
