@@ -47,6 +47,10 @@ def create_polynomial(k: int) -> str:
 
 
 def write_in_file(value: str):
+    """
+    записывает в файл значение value
+    :param value:
+    """
     with open('file.txt', 'a') as data:
         data.writelines(f'{value}\n')
 
